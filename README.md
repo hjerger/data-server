@@ -1,14 +1,16 @@
-## Running the Dashboard App
+## Running the data server
+To start the server run the following commands:
 
-To start the app run the following commands (make sure the data-server is already running):
+### `npm install`
+### `npm run build`
 
-### `yarn install`
-### `yarn start`
+then go to the dist directory and run 
+### `npm start`
+(you can also run 'npm run local' in the main directory)
 
-This runs the app in the development mode.\
-Open [http://localhost:3030](http://localhost:3030) to view it in the browser.
+This runs the server at [http://localhost:3030](http://localhost:3030).
 
-## you can run the following requests
+### you can run the following requests:
 - [http://localhost:3030/findings/raw](http://localhost:3030/findings/raw)
 - [http://localhost:3030/findings/grouped](http://localhost:3030/findings/grouped)
 - [http://localhost:3030/findings/rawByGroup/16](http://localhost:3030/findings/rawByGroup/16)
